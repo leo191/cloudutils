@@ -1,0 +1,32 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-2",
+      "eventTime": "2020-05-29T17: 42: 03.947Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": { "principalId": "A1BVSXZ7RU92U0" },
+      "requestParameters": { "sourceIPAddress": "202.142.113.37" },
+      "responseElements": {
+        "x-amz-request-id": "517C4AC8F0275EEB",
+        "x-amz-id-2": "ceoM355mIQeV+UqApkwtYPatXiv6AC+qPfGBIwGDRmV6FvMJFrUDIeTtSl7uRnZAAbDy/vDeUe8bC73m3aBVX1X6ZbDkjcrr"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "c077e336-d7dc-45e0-906d-d23ff988f2e5",
+        "bucket": {
+          "name": "leoinfraemplates",
+          "ownerIdentity": { "principalId": "A1BVSXZ7RU92U0" },
+          "arn": "arn:aws:s3: : :leoinfraemplates"
+        },
+        "object": {
+          "key": "base.py",
+          "size": 332,
+          "eTag": "579f944eaf11b7064a60a922e10877ad",
+          "sequencer": "005ED1496F47B7BE13"
+        }
+      }
+    }
+  ]
+}
